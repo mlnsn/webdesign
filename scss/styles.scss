@@ -1,18 +1,18 @@
 #main-header {
-  img {
-    width: 1520px;
-    height: 750px;
-  }
-
   .container-fluid {
     padding-left: 0;
     padding-right: 0;
-    position: relative;
+
+    img {
+      width: 1520px;
+      height: 750px;
+      position: relative;
+    }
 
     .head-text {
       position: absolute;
-      top: 100px;
-      left: 400px;
+      top: 15%;
+      left: 30%;
 
       h1 {
         text-transform: uppercase;
