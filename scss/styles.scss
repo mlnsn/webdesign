@@ -1,4 +1,49 @@
-body{
-  color: #000;
-  font-size: 20px;
+#main-header {
+  img {
+    width: 1520px;
+    height: 750px;
+  }
+
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+
+    .head-text {
+      position: absolute;
+      top: 100px;
+      left: 400px;
+
+      h1 {
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        font-size: 60px;
+        font-weight: bold;
+
+
+      }
+
+      h5 {
+        text-align: center;
+        padding-top: 30px;
+        color: #fff;
+        line-height: 2;
+        font-weight: normal;
+        font-size: 18px;
+
+      }
+
+      i {
+        color: #fff;
+        font-size: 130px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
+
+#info1 {
+
 }
