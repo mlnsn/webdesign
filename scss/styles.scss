@@ -2,17 +2,13 @@
   .container-fluid {
     padding-left: 0;
     padding-right: 0;
-
-    img {
-      width: 1520px;
-      height: 750px;
-      position: relative;
-    }
-
+    position: relative;
+    background-image: url("src/img/bgimg1.jpg");
     .head-text {
       position: absolute;
-      top: 15%;
-      left: 30%;
+      top: 5%;
+      right: 0;
+      left: 0;
 
       h1 {
         text-transform: uppercase;
