@@ -1,51 +1,283 @@
-#main-header {
-  .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-    background-image: url("../img/bgimg1.jpg");
-    background-size:cover;
-    background-position:center center;
-    background-repeat:no-repeat;
-    position: absolute;
-    .head-text {
-      position: relative;
-      top: 5%;
-      right: 0;
-      left: 0;
+body {
+  ::selection {
+    background: #E80C0C;
+    color: #fff;
+  }
 
-      h1 {
-        text-transform: uppercase;
-        text-align: center;
-        color: #fff;
-        font-size: 60px;
-        font-weight: bold;
-        padding-top: 30px;
+  #main-header {
+    .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+      background-image: url("../img/bgimg1.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
 
-      }
+      .head-text {
+        position: relative;
+        top: 5%;
+        right: 0;
+        left: 0;
 
-      h5 {
-        text-align: center;
-        padding-top: 30px;
-        color: #fff;
-        line-height: 2;
-        font-weight: normal;
-        font-size: 18px;
-        padding-bottom: 30px;
+        h1 {
+          text-transform: uppercase;
+          text-align: center;
+          color: #fff;
+          font-size: 60px;
+          font-weight: bold;
+          padding-top: 30px;
 
-      }
+        }
 
-      i {
-        color: #fff;
-        font-size: 130px;
-        padding-top: 40px;
-        padding-bottom: 20px;
+        h5 {
+          text-align: center;
+          padding-top: 30px;
+          color: #fff;
+          line-height: 2;
+          font-weight: normal;
+          font-size: 18px;
+          padding-bottom: 30px;
+
+        }
+
+        img {
+          padding-top: 40px;
+          padding-bottom: 20px;
+        }
       }
     }
   }
-}
 
-#info1 {
-.container{
-  
-}
+  #info1 {
+    .container {
+      padding-top: 30px;
+      padding-bottom: 20px;
+
+      p {
+        text-align: center;
+        font-size: 15px;
+      }
+    }
+
+    .info-text {
+      border: 1px solid red;
+      padding: 20px 40px 20px 40px;
+
+      h5 {
+        font-weight: bold;
+        color: red;
+        font-size: 17px;
+      }
+
+      h6 {
+        color: red;
+        text-align: center;
+      }
+    }
+
+    p {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+  }
+
+  #info2 {
+    background-color: #F06B30;
+    padding-bottom: 30px;
+
+    .container {
+      .row {
+        .col-lg-6 {
+          h1 {
+            color: #fff;
+            font-weight: bold;
+            font-size: 50px;
+            padding-top: 40px;
+          }
+
+          h5 {
+            color: #fff;
+            font-weight: normal;
+            padding-top: 20px;
+          }
+
+          p {
+            color: #fff;
+            font-size: 16px;
+            text-align: left;
+            padding-top: 20px;
+          }
+
+          img {
+            width: 100%;
+            padding-top: 60px;
+          }
+
+          .info-img {
+            img {
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #info3 {
+    .container {
+      padding-top: 60px;
+
+      h1 {
+        color: #3DA2EB;
+        text-align: center;
+        padding-bottom: 50px;
+      }
+
+      .row {
+        .col-lg-4 {
+          h5 {
+            color: #3DA2EB;
+            text-align: center;
+            font-weight: bold;
+            padding-top: 40px;
+            padding-bottom: 25px;
+          }
+
+          p {
+            text-align: justify;
+            font-size: 15px;
+            padding-bottom: 50px;
+          }
+        }
+      }
+    }
+  }
+
+  #process {
+    .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+      background-image: url("../img/bgimg2.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+
+      .process-text {
+        position: relative;
+        top: 5%;
+        right: 0;
+        left: 0;
+
+        h2 {
+          text-align: center;
+          color: #fff;
+          font-size: 40px;
+          padding-top: 80px;
+          padding-bottom: 80px;
+        }
+
+        p {
+          text-align: justify;
+          padding-top: 80px;
+          color: #fff;
+          line-height: 1.5;
+          font-weight: normal;
+          font-size: 17px;
+          padding-bottom: 30px;
+        }
+
+        .text {
+          width: 850px;
+        }
+      }
+    }
+  }
+
+  #rules {
+    .container {
+      padding-top: 60px;
+
+      .row {
+        .col-lg-8 {
+          h1 {
+            color: #3DA2EB;
+            text-align: center;
+            padding-bottom: 50px;
+            font-size: 36px;
+          }
+
+          .rules-head {
+            p {
+              padding-left: 20px;
+              font-size: 18px;
+            }
+          }
+
+          ul {
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            li {
+              padding-top: 10px;
+            }
+          }
+        }
+
+        .col-lg-4 {
+          color: #fff;
+
+          .rules1 {
+            background-color: #EA6E2F;
+            height: 400px;
+
+            h1 {
+              text-align: center;
+              font-size: 60px;
+              text-transform: uppercase;
+              padding-top: 50px;
+            }
+
+            h2 {
+              text-align: center;
+              line-height: 1.5;
+              padding-top: 50px;
+
+              span {
+                font-size: 25px;
+              }
+            }
+          }
+
+          .rules2 {
+            background-color: #FEC039;
+            height: 770px;
+            padding-top: 60px;
+
+            ol {
+              li {
+                color: #e80c0c;
+
+                h5 {
+                  font-weight: normal;
+                  font-size: 20px;
+                  color: #fff;
+                }
+
+                p {
+                  color: #000;
+                  font-size: 14px;
+                  padding-right: 20px;
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  #cms {
+    background-color: #00AA9F;
+  }
 }
