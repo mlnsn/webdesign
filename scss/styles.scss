@@ -151,8 +151,9 @@ body {
             font-size: 15px;
             padding-bottom: 50px;
           }
-          .info-img{
-            img{
+
+          .info-img {
+            img {
               width: 100px;
               height: 100px;
             }
@@ -198,7 +199,8 @@ body {
         .text {
           width: 850px;
         }
-        img{
+
+        img {
           width: 350px;
           height: 120px;
         }
@@ -207,6 +209,8 @@ body {
   }
 
   #rules {
+    padding-bottom: 60px;
+
     .container {
       padding-top: 60px;
 
@@ -234,7 +238,8 @@ body {
               padding-top: 10px;
             }
           }
-          img{
+
+          img {
             width: 100px;
             height: 100px;
           }
@@ -263,6 +268,12 @@ body {
                 font-size: 25px;
               }
             }
+          }
+
+          img {
+            position: relative;
+            width: 250px;
+            height: 50px;
           }
 
           .rules2 {
@@ -296,9 +307,66 @@ body {
 
   #cms {
     background-color: #00AA9F;
+    color: #fff;
+    padding-bottom: 60px;
+
+    h1 {
+      text-align: center;
+      padding-top: 70px;
+      padding-bottom: 50px;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .cms-icons {
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+      h5 {
+        text-align: center;
+        font-weight: normal;
+        font-size: 16px;
+        //margin-left: -25px;
+      }
+
+      img {
+        width: 120px;
+        height: 100px;
+      }
+    }
+
+    .list {
+      h3 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        border-bottom: 2px solid #fff;
+        font-weight: normal;
+      }
+
+      .un-list {
+        ul {
+          li {
+            padding-top: 10px;
+          }
+        }
+      }
+
+    }
+
   }
 }
-.loading{
+
+.loading {
   width: 100%;
   height: 100vh;
   z-index: 10;
