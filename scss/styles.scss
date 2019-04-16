@@ -364,6 +364,83 @@ body {
     }
 
   }
+
+  #work {
+    h1 {
+      color: #00AA9F;
+      text-align: center;
+      padding-bottom: 50px;
+      font-size: 36px;
+      padding-top: 50px;
+    }
+
+    .col-lg-6 {
+      img {
+        width: 450px;
+        height: 350px;
+        padding-bottom: 50px;
+      }
+
+      p {
+        &:nth-child(odd) {
+          font-style: italic;
+        }
+      }
+    }
+
+    .steps {
+      img {
+        width: 100px;
+        height: 140px;
+      }
+
+      .d-flex {
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  #customers {
+    color: #fff;
+
+    .col-md-6 {
+      h2 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        font-size: 36px;
+      }
+
+      img {
+        width: 350px;
+        height: 100px;
+      }
+
+      p {
+        padding-top: 50px;
+      }
+
+      ul {
+        padding-top: 80px;
+
+        li {
+          font-size: 20px;
+          padding-top: 5px;
+        }
+      }
+    }
+
+  }
+
+  #prices {
+    .container {
+      padding-top: 50px;
+
+      .col-lg-6 {
+        img {
+        }
+      }
+    }
+  }
 }
 
 .loading {
