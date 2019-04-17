@@ -4,6 +4,10 @@ body {
     color: #fff;
   }
 
+  img {
+    width: 100%;
+  }
+
   #main-header {
     .container-fluid {
       padding-left: 0;
@@ -435,8 +439,148 @@ body {
     .container {
       padding-top: 50px;
 
+      h1 {
+        color: #00AA9F;
+        text-align: center;
+        padding-bottom: 50px;
+        font-size: 36px;
+        padding-top: 50px;
+      }
+
       .col-lg-6 {
-        img {
+        .d-flex {
+          height: 200px;
+          padding-left: 50px;
+        }
+
+        p {
+          font-size: 14px;
+          padding-bottom: 20px;
+
+          &:nth-child(even) {
+            padding-top: 50px;
+          }
+        }
+
+        .prices-img {
+          width: 50%;
+          height: 100%;
+          border: 1px solid #ccc;
+
+          img {
+            width: 100px;
+            height: 100px;
+          }
+        }
+
+        .prices-text {
+          width: 50%;
+
+          h4 {
+            color: #00AA9F;
+            font-size: 18px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+
+  #contact {
+    background-color: #ea6e2f;
+    color: #fff;
+
+    .col-lg-6 {
+      h2 {
+        font-weight: normal;
+        padding-top: 80px;
+        padding-bottom: 30px;
+      }
+
+      h1 {
+        padding-bottom: 30px;
+
+        span {
+          font-weight: normal;
+          font-size: 16px;
+        }
+      }
+
+    }
+
+    .contact-info {
+      border: 2px solid #fff;
+      height: 150px;
+      position: relative;
+      top: 20%;
+      padding-bottom: 50px;
+
+      img {
+        width: 80px;
+        height: 120px;
+        position: relative;
+        top: 0;
+        left: 5%;
+        padding-top: 40px;
+      }
+
+      h2 {
+        font-size: 24px;
+        padding-top: 40px;
+        padding-left: 60px;
+        position: relative;
+        top: 0;
+        left: 5%;
+      }
+    }
+
+  }
+
+  #projects {
+    h1 {
+      color: #000;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: bold;
+      font-size: 60px;
+      padding-top: 80px;
+    }
+
+    p {
+      text-align: center;
+      color: #666;
+      font-style: italic;
+      font-size: 22px;
+    }
+
+    .images {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .col-lg-4 {
+      margin-left: 0;
+      margin-right: 0;
+
+      img {
+        height: 250px;
+        width: 370px;
+      }
+
+      a {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        color: #fff;
+        text-decoration: none;
+        background-color: #333;
+        height: 30px;
+        width: 300px;
+        font-weight: bold;
+        text-align: center;
+
+        &:hover {
+          background-color: #e80c0c;
         }
       }
     }
